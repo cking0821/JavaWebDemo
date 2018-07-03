@@ -26,7 +26,6 @@ public class BarService extends HttpServlet {
         //[{"name":"衬衫","num":5},{"name":"羊毛衫","num":20},{"name":"雪纺衫","num":40}....json数据类型
         //返回到JSP
         PrintWriter writer = resp.getWriter();
-
         //why following statement is necessary? please read source code!!
         writer.println(json);
         writer.flush();

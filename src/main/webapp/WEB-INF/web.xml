@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
   <welcome-file-list>
-    <welcome-file>test.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 
   <!-- 注册servlet -->
@@ -15,6 +15,17 @@
 
   <servlet-mapping>
     <servlet-name>barService</servlet-name>
-    <url-pattern>/bar.do</url-pattern>
+    <url-pattern>/bar.display</url-pattern>
+  </servlet-mapping>
+
+  <!-- 注册servlet -->
+  <servlet>
+    <servlet-name>statisticsService</servlet-name>
+    <servlet-class>com.servlet.StatisticsService</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>statisticsService</servlet-name>
+    <url-pattern>/statistics.display</url-pattern>
   </servlet-mapping>
 </web-app>
