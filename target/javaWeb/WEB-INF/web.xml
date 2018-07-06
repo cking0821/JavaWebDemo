@@ -28,4 +28,14 @@
     <servlet-name>statisticsService</servlet-name>
     <url-pattern>/statistics.display</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>intimacyService</servlet-name>
+    <servlet-class>com.servlet.IntimacyService</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>intimacyService</servlet-name>
+    <url-pattern>/intimacy.display</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -6,16 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0467c68-c10a-45cd-a545-dde3b394d8f2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/CallLogListEchart.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javaWeb/CallLogListEchart.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javaWeb/test.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/servlet/BarService.class" afterPath="$PROJECT_DIR$/target/classes/com/servlet/BarService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javaWeb/WEB-INF/classes/com/servlet/BarService.class" afterPath="$PROJECT_DIR$/target/javaWeb/WEB-INF/classes/com/servlet/BarService.class" />
+    <list default="true" id="c0467c68-c10a-45cd-a545-dde3b394d8f2" name="Default" comment="1.构建了jsp页面&#10;2.构建了从mysql中查询数据并写到jsp页面的步骤&#10;3.基本步骤以及完成">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/dao/BarDao.class" afterPath="$PROJECT_DIR$/target/classes/com/dao/BarDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javaWeb/WEB-INF/classes/com/dao/BarDao.class" afterPath="$PROJECT_DIR$/target/javaWeb/WEB-INF/classes/com/dao/BarDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dao/BarDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/BarDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/servlet/BarService.java" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/BarService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javaWeb/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/javaWeb/WEB-INF/web.xml" />
     </list>
@@ -30,18 +24,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IntimacyDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/IntimacyDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#434#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intimacy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Intimacy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntimacyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/IntimacyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="239" column="6" lean-forward="true" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+            <state relative-caret-position="747">
+              <caret line="116" column="61" lean-forward="false" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="61" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/StatisticsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,13 +118,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/bean/statistics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bean/Statistics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/utils/MysqlUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/BarDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/StatisticsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlet/BarService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bean/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlet/StatisticsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/servlet/IntimacyUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/servlet/IntimacyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/MysqlUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/IntimacyDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bean/Intimacy.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
@@ -245,15 +289,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -278,6 +313,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\intellij_Project\javaWeb\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.servlet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\intellij_Project\javaWeb\src\main\webapp" />
@@ -529,16 +567,23 @@
       <updated>1530530830632</updated>
       <workItem from="1530530831989" duration="1269000" />
       <workItem from="1530533358890" duration="6351000" />
-      <workItem from="1530579366071" duration="15696000" />
+      <workItem from="1530579366071" duration="24221000" />
     </task>
+    <task id="LOCAL-00001" summary="1.构建了jsp页面&#10;2.构建了从mysql中查询数据并写到jsp页面的步骤&#10;3.基本步骤以及完成">
+      <created>1530630015510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530630015510</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23316000" />
+    <option name="totallyTimeSpent" value="31841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -551,11 +596,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32604167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13450937" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26903024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30135557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16097023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17640573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -577,6 +622,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.构建了jsp页面&#10;2.构建了从mysql中查询数据并写到jsp页面的步骤&#10;3.基本步骤以及完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.构建了jsp页面&#10;2.构建了从mysql中查询数据并写到jsp页面的步骤&#10;3.基本步骤以及完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,8 +655,8 @@
         <state relative-caret-position="9086">
           <caret line="451" column="16" lean-forward="false" selection-start-line="451" selection-start-column="16" selection-end-line="451" selection-end-column="16" />
           <folding>
-            <element signature="e#15583#15584#0" expanded="true" />
-            <element signature="e#15622#15623#0" expanded="true" />
+            <element signature="e#15583#15584#0" expanded="false" />
+            <element signature="e#15622#15623#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -685,11 +734,7 @@
         <state relative-caret-position="2190">
           <caret line="135" column="64" lean-forward="false" selection-start-line="135" selection-start-column="64" selection-end-line="135" selection-end-column="64" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/MysqlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/ServletResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -757,17 +792,6 @@
         <state relative-caret-position="219">
           <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_77/src.zip!/java/io/PrintWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="455" column="23" lean-forward="false" selection-start-line="455" selection-start-column="23" selection-end-line="455" selection-end-column="23" />
-          <folding>
-            <element signature="e#15583#15584#0" expanded="true" />
-            <element signature="e#15622#15623#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,72 +821,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/StatisticsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/BarService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/IntimacyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#764#765#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="475" column="17" lean-forward="false" selection-start-line="475" selection-start-column="17" selection-end-line="475" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/MysqlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/StatisticsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="396">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_77/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="35" column="70" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_77/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="478" column="12" lean-forward="false" selection-start-line="478" selection-start-column="12" selection-end-line="478" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/StatisticsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="399" column="0" lean-forward="false" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/IntimacyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/IntimacyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Intimacy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="239" column="6" lean-forward="true" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        <state relative-caret-position="747">
+          <caret line="116" column="61" lean-forward="false" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="61" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
